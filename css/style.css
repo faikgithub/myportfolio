@@ -336,22 +336,29 @@ h1 .project-sectiontitle {
 /* FOOTER */
 
 footer {
+ position: absolute;
+ top: 300%;
+ left: 0%;
+ width: 100%;
+ height: 10%;
+  background-color: #242424;
+  padding-top: 2vh;
+}
+
+.row_footer__row{
   position: absolute;
-  top: 200%;
-  left: 0%;
+  left: 36%;
   background-color: #242424;
 }
 
-
-
 .footer__social--list {
 
-
-  width: 100%;
+  width: 500%;
   max-width: 500px;
-  display: flex;
+  display:flex;
   justify-content: space-around;
   margin-bottom: 28px;
+  background-color: #242424;
 }
 .footer__row {
   display: flex;
@@ -359,17 +366,22 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 8% 0;
+  background-color: #242424;
 }
 
 .footer__logo--img {
   width: 70px;
   height: 70px;
+  background-color: #242424;
 }
 
 .footer__social--link,
 .footer__copyright,
 .footer__logo--popper {
+
+  background-color: #242424;
   color: #fff;
+
 }
 
 .footer__logo--popper {
@@ -379,14 +391,19 @@ footer {
   font-weight: 700;
   opacity: 0;
   transition: all 300ms ease;
+  background-color: #242424;
+
 }
 
 .footer__anchor {
+  background-color: #242424;
+
   margin-bottom: 20px;
   position: relative;
 }
 
 .footer__anchor:hover .footer__logo--popper {
+  background-color: #242424;
   transform: translateX(60px);
   opacity: 1;
 }
