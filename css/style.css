@@ -375,8 +375,16 @@ footer {
   background-color: #242424;
 }
 
+.footer__copyright{
+  background-color: #242424;
+  color: #fff;
+  position: absolute;
+  left: 66%;
+  top: 65%;
+  width: 50vh;
+}
+
 .footer__social--link,
-.footer__copyright,
 .footer__logo--popper {
 
   background-color: #242424;
