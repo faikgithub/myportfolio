@@ -331,9 +331,127 @@ h1 .project-sectiontitle {
   color: white;
 }
 
-
-
-
-
-
 /*** */
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  top: 200%;
+  left: 0%;
+  background-color: #242424;
+}
+
+
+
+.footer__social--list {
+
+
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
+}
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 0;
+}
+
+.footer__logo--img {
+  width: 70px;
+  height: 70px;
+}
+
+.footer__social--link,
+.footer__copyright,
+.footer__logo--popper {
+  color: #fff;
+}
+
+.footer__logo--popper {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.footer__anchor {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer__anchor:hover .footer__logo--popper {
+  transform: translateX(60px);
+  opacity: 1;
+}
+
+/* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+  nav {
+    height: 68px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .about-me__info--para {
+    font-size: 18px;
+  }
+
+  .language {
+    width: calc(100% / 3);
+  }
+
+  .project__description--para {
+    font-size: 14px;
+  }
+
+  .project__description {
+    left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* SMALL PHONES */
+@media (max-width: 480px) {
+  .nav__link:not(:last-child) {
+    display: none;
+  }
+
+  .project__wrapper {
+    border-radius: 0;
+  }
+
+  .project__description {
+    padding: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .project__description--para {
+    display: none;
+  }
+
+  .project__description--links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project__description--title {
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .project__description--sub-title {
+    text-align: center;
+    margin: 12px 0;
+  }
+}
