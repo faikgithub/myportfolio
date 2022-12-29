@@ -8,6 +8,23 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
+.languages{
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+
+.projects{
+ display: flex;
+ align-items: center;
+ height: 100vh;
+}
+
 .color1 {color: #710920;}
 .color2 {color: #c90113;}
 .color3 {color: #73c2fe;}
@@ -41,6 +58,11 @@ section .top{
   font-size: 3vh;
   animation: fade-up 650ms 400ms backwards;
 
+}
+
+.link__hover-effect{
+  content: "";
+ transition: all 300ms ease;
 }
 
 
@@ -224,6 +246,7 @@ h1 .project-sectiontitle {
 }
 
 .project-container {
+  animation: fade-up 650ms 850ms backwards;
   position: absolute;
   top: 135%;
   left: 0%;
@@ -330,6 +353,8 @@ h1 .project-sectiontitle {
   text-align: left;
   color: white;
 }
+
+
 
 /*** */
 
