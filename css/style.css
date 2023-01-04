@@ -130,6 +130,45 @@ left: 0%;
 
 }
 
+
+
+li{
+    list-style: none;
+}
+
+
+
+.socials li{
+
+
+
+}
+
+.email{
+  position: absolute;
+  left: 15%;
+  top: 150%;
+}
+
+.resume{
+  position: absolute;
+  left: 20%;
+  top: 150%;
+}
+
+.git{
+  position: absolute;
+  left: 25%;
+  top: 150%;
+}
+
+.linked{
+  position: absolute;
+  left: 30%;
+  top: 150%;
+}
+
+
 .navbar a:hover{
  color: #d5aeb1;
 }
@@ -150,6 +189,14 @@ left: 0%;
     left: 5%;
   }
 }
+
+
+.socails-img{
+  animation: fade-up 650ms 700ms backwards;
+  width: 3.6vh;
+  height: 3.6vh;
+}
+
 
 /******* */
 
