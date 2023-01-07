@@ -361,6 +361,26 @@ h1 .project-sectiontitle {
   padding-top: 40px;
 }
 
+
+.githublogo{
+  background-color: #eadcc3;
+
+  width: 4vh;
+  height: 4vh;
+}
+
+.link{
+  background-color: #eadcc3;
+
+  width: 4vh;
+  height: 4vh;
+}
+
+.githublogo:hover,
+.link:hover{
+  opacity: 0.5;
+}
+
 .project__description {
   background-color: #eadcc3;
   position: absolute;
@@ -395,12 +415,15 @@ h1 .project-sectiontitle {
 }
 .project__description--title,
 .project__description--sub-title,
-.project__description--para,
-.project__description--link {
+.project__description--para{
   background-color: #eadcc3;
   list-style-type: none;
   text-align: left;
   color: white;
+}
+
+.project__description--link{
+  color: #eadcc3;
 }
 
 
