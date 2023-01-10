@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.goback{
+  color: black;
+  font-size: 2vh;
+}
+
+
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+
+}
+section .circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #b5e7a0;
+  clip-path: circle(75% at right center);
+}
+
+section header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo{
+  position: relative;
+  top: -20%;
+  max-width: 5vh;
+  max-width: 5vh;
+}
+
+header .navigation{
+  position: relative;
+  display: flex;
+}
+header .navigation li{
+list-style: none;
+}
+
+header .navigation li a{
+  display: inline-block;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox{
+  position: relative;
+  max-width: 600px;
+  margin-right: 20px;
+}
+.content .textBot h2{
+  color: #fff;
+  font-size: 3em;
+  margin-bottom:  10px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+.content .textBox p{
+  color: black;
+  font-weight: 400;
+}
+.content .textBox a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #b5e7a0;;
+  color: #fff;
+  border: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.sci{
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sci li{
+  list-style: none;
+}
+sci li a{
+  display: inline-block;
+  margin-left: 15px;
+  background: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2s ease-in-out;
+}
+
+.sci li a:hover{
+  background: #b5e7a0;
+  transition: translateY(-10px);
+}
+
+.sci li a img{
+
+  width: 5vh;
+  height: 5vh;
+}
+
+
+.container-slider{
+  position: absolute;
+  width: 33%;
+  height: 75%;
+  left: 55%;
+  top: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper{
+  width: 10;
+  height: fit-content;
+
+}
+
+.swiper-slide img{
+  width: 98%;
+  height: fit-content;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+  color: white;
+}
+section .adress{
+  position: absolute;
+  top: 20%;
+}
+
+.adress{
+  width: 35vh;
+  align-items: flex;
+}
+
+.adress .adresstext{
+  color: black;
+  font-weight: 500;
+  font-size: 2vh;
+  position: absolute;
+  top: 0%;
+  left: 12%;
+}
+.adress .phonetext{
+  color: black;
+  font-weight: 500;
+  font-size: 2vh;
+  position: absolute;
+  top: 100%;
+  left: 10%;
+}
+.map{
+  width: 3vh;
+  height: 3vh;
+}
+.phone{
+  width: 2vh;
+  height: 2.5vh;
+  position: absolute;
+  top: 100%;
+  left: 2%;
+}

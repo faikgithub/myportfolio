@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resturant Example</title>
+    <link rel="stylesheet" href="\files\restaurantwebsite\master.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  </head>
+  <body>
+
+  <div class="backbutton">
+
+
+
+  </div>
+
+ <section>
+<div class="circle"> </div>
+    <header>
+      <a href="#"> <img src="logo.png" class="logo"> </a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">What's New</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+<div class="container-slider">
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"> <img src="essen1.png"> </div>
+      <div class="swiper-slide"> <img src="essen2.png"> </div>
+      <div class="swiper-slide"> <img src="essen3.png"> </div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+
+  </div>
+</div>
+<!-- WARNING:<div class="circle"> </div>
+  -->
+
+    <div class="content">
+      <div class="textBox">
+        <h2>Taste the Feeling</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+         <a href="#">Learn More</a>
+      </div>
+    </div>
+
+
+  <div class="adress">
+    <img src="map.png" class="map">
+
+    <h2 class="adresstext">Römerstraße 93, 52351 Köln</h2>
+    <img src="phone.png" class="phone">
+     <h2 class="phonetext">+49 170 666666</h2>
+  </div>
+
+
+    <ul class="sci">
+      <li> <a href="#"> <img src="facebook.png" alt=""> </a> </li>
+      <li> <a href="#"> <img src="twitter.png" alt=""> </a> </li>
+      <li> <a href="#"> <img src="instagram.png" alt=""> </a> </li>
+    </ul>
+ </section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+loop: true,
+
+// If we need pagination
+pagination: {
+  el: '.swiper-pagination',
+  clickable: true,
+},
+
+// Navigation arrows
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+
+});
+</script>
+
+  </body>
+</html>
