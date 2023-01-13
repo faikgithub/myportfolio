@@ -520,7 +520,7 @@ footer {
 /* Small phones, tablets, large smartphones */
 
 
-@media (max-width: 1000px){
+@media (max-width: 1200px){
 
   .header-navbar{
 
@@ -685,4 +685,33 @@ max-width: 50vh;
   .project__description--sub-title{
     font-size: 25px;
   }
+
+
+  .email{
+    position: absolute;
+    left: 24%;
+    top: 150%;
+  }
+
+  .resume{
+    position: absolute;
+    left: 33%;
+    top: 150%;
+  }
+
+  .git{
+    position: absolute;
+    left: 41%;
+    top: 150%;
+  }
+
+  .linked{
+    position: absolute;
+    left: 49%;
+    top: 150%;
+  }
+
+
+
+
 }
